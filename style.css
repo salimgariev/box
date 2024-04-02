@@ -1,0 +1,49 @@
+body{
+  background: blueviolet;
+}
+
+.contener {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+  color: rgb(19, 22, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px 1px aqua;
+  transition: .3s;
+}
+
+.box:hover {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.959),
+              0 0 0 4px rgb(0, 255, 255);
+  cursor: pointer;
+}
+
+.box2 {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+  color: rgb(19, 22, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 10px 1px aqua,
+              0 0 0 2px rgba(255, 255, 255, 0.356),
+              0 0 0 4px aqua;
+}
+
+.box2:hover {
+  cursor: pointer;
+} 
